@@ -9,7 +9,7 @@ def hashing(password):
     return key
 
 
-class Account():
+class Account:
     
     
     def __init__(self, username: str, password: str, phone_number: str, email: str) -> None:
@@ -51,7 +51,7 @@ class Account():
             raise Exception("invalid email")    
 
 
-class Site():
+class Site:
     
     
     def __init__(self, url) -> None:
